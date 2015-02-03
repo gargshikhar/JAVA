@@ -1,3 +1,10 @@
+// =============== BEGIN ASSESSMENT HEADER ================
+/// @file SortList.java
+/// @author Shikhar Garg [shikhargarg1992@gmail.com]
+/// @date December 26, 2014
+/// @program description Linked List Sorting 
+/// The public class node could be found in "LINKEDLISTS"
+// ================== END ASSESSMENT HEADER ===============
 import java.util.*;
 public class Insert {
 	public static void main(String[] args){
@@ -6,11 +13,11 @@ public class Insert {
 		Node B = new Node(67,A);
 		Node C = new Node(4,B);
 		Node D = new Node(456,C);
-		System.out.println(SortList(D).data);
-		System.out.println(SortList(D).next.data);
-		System.out.println(SortList(D).next.next.data);
-		System.out.println(SortList(D).next.next.next.data);
-		System.out.println(SortList(D).next.next.next.next.data);
+	//	System.out.println(SortList(D).data);                  To check and print the resulted linked list
+	//	System.out.println(SortList(D).next.data);
+	//	System.out.println(SortList(D).next.next.data);
+	//	System.out.println(SortList(D).next.next.next.data);
+	//	System.out.println(SortList(D).next.next.next.next.data);
 		
 	}
 	public static Node SortList(Node root){
