@@ -1,4 +1,10 @@
-
+// =============== BEGIN ASSESSMENT HEADER ================
+/// @file Nthelement_LinkedList.java
+/// @author Shikhar Garg [shikhargarg1992@gmail.com]
+/// @date December 13, 2014
+/// @program description  It finds the nth element from the starting of a Linked List 
+/// The public class Node could be found in "LINKEDLISTS"
+// ================== END ASSEaSSMENT HEADER ===============
 public class GetNth {
   public static void main(String args[]){
   	Node tail = new Node(1,null);
