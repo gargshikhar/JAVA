@@ -1,8 +1,16 @@
+// =============== BEGIN ASSESSMENT HEADER ================
+/// @file LinkedList_Reverse.java
+/// @author Shikhar Garg [shikhargarg1992@gmail.com]
+/// @date December 13, 2014
+/// @program description Linked List Reversal
+///                      The public class node could be found in "LINKEDLISTS"
+// ================== END ASSESSMENT HEADER ===============
+
 import java.util.*;
 
 public class Reverse {
   public static void main(String[] args){
-  	Node tail = new Node(6,null);                       // Creates the input linked list
+  	Node tail = new Node(6,null);                       // Creates the input linked list using public class node
   	Node A = new Node(5,tail);
   	Node B = new Node(4,A);
   	Node C = new Node(3,B);
@@ -19,7 +27,7 @@ public class Reverse {
 
   public static Node ReverseLinked(Node root){
 
-  	if(root == null){
+  	if(root == null){				// Test case for an empty linked list  
   		return root;
   	}
   	Node ptr = root.next ;
@@ -34,6 +42,6 @@ public class Reverse {
     	temp.next = head;
     	head = temp;	
     		}
-    return head;
+    return head;                                         // Returns the head node of the reversed linked list
 	}
 }
